@@ -1,0 +1,76 @@
+# Logfile created on 2015-01-14 01:06:56 +0000 by logger.rb/44203
+I, [2015-01-14T01:06:56.526931 #1539]  INFO -- : ..............
+
+Finished in 0.04833 seconds (files took 0.22231 seconds to load)
+14 examples, 0 failures
+
+I, [2015-01-14T01:07:14.804378 #1539]  INFO -- : {
+  "message": "Validation Failed",
+  "errors": [
+    {
+      "resource": "Repository",
+      "code": "custom",
+      "field": "name",
+      "message": "name already exists on this account"
+    }
+  ],
+  "documentation_url": "https://developer.github.com/v3/repos/#create"
+}
+
+I, [2015-01-14T01:07:14.825166 #1539]  INFO -- : 
+I, [2015-01-14T01:07:32.790797 #1539]  INFO -- : 
+I, [2015-01-14T01:07:32.809563 #1539]  INFO -- : 
+I, [2015-01-14T01:07:32.836262 #1539]  INFO -- : Initialized empty Git repository in /home/action/Desktop/temp/.git/
+
+I, [2015-01-14T01:07:32.856757 #1539]  INFO -- : 
+I, [2015-01-14T01:07:32.879193 #1539]  INFO -- : [master (root-commit) 20613f0] Unixoid submission
+ 1 file changed, 1 insertion(+)
+ create mode 100644 unixoid_results.txt
+
+I, [2015-01-14T01:07:32.899876 #1539]  INFO -- : 
+E, [2015-01-14T01:07:32.940903 #1539] ERROR -- : Command 'git push --force -u origin master  2>/dev/null' returned 128. Expected 0
+Here is the command output:
+
+
+I, [2015-01-14T01:07:32.961946 #1539]  INFO -- : 
+I, [2015-01-14T01:14:24.904627 #1634]  INFO -- : ..............
+
+Finished in 0.04653 seconds (files took 0.15639 seconds to load)
+14 examples, 0 failures
+
+I, [2015-01-14T01:14:57.011764 #1634]  INFO -- : {
+  "message": "Validation Failed",
+  "errors": [
+    {
+      "resource": "Repository",
+      "code": "custom",
+      "field": "name",
+      "message": "name already exists on this account"
+    }
+  ],
+  "documentation_url": "https://developer.github.com/v3/repos/#create"
+}
+
+I, [2015-01-14T01:14:57.033050 #1634]  INFO -- : thomas@strothjohann.net
+
+I, [2015-01-14T01:14:57.051126 #1634]  INFO -- : Thomas Strothjohann
+
+I, [2015-01-14T01:14:57.074354 #1634]  INFO -- : Reinitialized existing Git repository in /home/action/Desktop/temp/.git/
+
+I, [2015-01-14T01:14:57.095471 #1634]  INFO -- : 
+E, [2015-01-14T01:14:57.116249 #1634] ERROR -- : Command 'git commit -m 'Unixoid submission'  2>/dev/null' returned 1. Expected 0
+Here is the command output:
+
+# On branch master
+# Untracked files:
+#	logfile.log
+#	my/
+#
+nothing added to commit but untracked files present
+
+I, [2015-01-14T01:14:57.136212 #1634]  INFO -- : 
+E, [2015-01-14T01:14:57.170706 #1634] ERROR -- : Command 'git push --force -u origin master  2>/dev/null' returned 128. Expected 0
+Here is the command output:
+
+
+I, [2015-01-14T01:14:57.189578 #1634]  INFO -- : 
